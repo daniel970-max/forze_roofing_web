@@ -59,20 +59,62 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+              <a
+                class="nav-link"
+                href="#home"
+                data-section="navbar"
+                data-value="first-navbar"
+              ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a
+                class="nav-link"
+                href="#services"
+                data-section="navbar"
+                data-value="second-navbar"
+              ></a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#features">About</a>
+              <a
+                class="nav-link"
+                href="#features"
+                data-section="navbar"
+                data-value="third-navbar"
+              ></a>
             </li>
             <!-- <li class="nav-item"><a class="nav-link" href="#team">Team</a></li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a
+                class="nav-link"
+                href="#contact"
+                data-section="navbar"
+                data-value="quarter-navbar"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="translate_Idioma">
+          <a href="" id="idioma" class="idioma">
+            <img src="" alt="Icono bandera" />
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+          <ul id="idiomas" class="idiomas">
+            <li class="option">
+              <a href="" data-language="en"
+                ><img src="assets/banderas/English.jpg" alt="idImage" /><span
+                  >English</span
+                ></a
+              >
+            </li>
+            <li class="option">
+              <a href="" data-language="es"
+                ><img src="assets/banderas/Español.jpg" alt="idImage" /><span
+                  >Español</span
+                ></a
+              >
             </li>
           </ul>
         </div>
@@ -81,74 +123,88 @@
     <!-- Masthead-->
     <header class="masthead" id="home">
       <div class="container">
-        <div class="masthead-subheading" data-aos="fade-up">
-          Welcome To Our Construction Company FORZE ROOFING!
-        </div>
-        <div class="masthead-heading text-uppercase" data-aos="fade-up">
-          Building Dreams, Creating Homes
-        </div>
+        <div
+          class="masthead-subheading"
+          data-aos="fade-up"
+          data-section="home"
+          data-value="welcome"
+        ></div>
+        <div
+          class="masthead-heading text-uppercase"
+          data-aos="fade-up"
+          data-section="home"
+          data-value="title-page"
+        ></div>
         <a
           class="btn btn-primary btn-xl text-uppercase"
           href="#services"
           data-aos="fade-up"
-          >Tell Me More</a
-        >
+          data-section="home"
+          data-value="text-btn-home"
+        ></a>
       </div>
     </header>
     <!-- Services-->
     <section class="page-section" id="services">
       <div class="container" data-aos="fade-up">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">
-            Turning visions into reality: Experts in roofing, siding, painting,
-            and general construction. Your project, our excellence.
-          </h3>
+          <h2
+            class="section-heading text-uppercase"
+            data-section="services"
+            data-value="title"
+          ></h2>
+          <h3
+            class="section-subheading text-muted"
+            data-section="services"
+            data-value="description"
+          ></h3>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x imgposit">
               <img src="assets/img/photo2.jpg" alt="img" />
             </span>
-            <h4 class="my-3">Roofing</h4>
-            <p class="text-muted">
-              FORZE ROOFING specializes in roofing services, bringing extensive
-              experience in construction, repair, and maintenance of
-              high-quality roofs. Our highly trained team excels in delivering
-              durable solutions with top-notch materials and advanced
-              techniques. At FR, we are committed to exceeding expectations,
-              ensuring every detail of your roofing project is handled with
-              precision and professionalism. Trust us for efficient and
-              excellent roofing solutions.
-            </p>
+            <h4
+              class="my-3"
+              data-section="services"
+              data-value="first-item"
+            ></h4>
+            <p
+              class="text-muted"
+              data-section="services"
+              data-value="description-roofing"
+            ></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x imgposit">
               <img src="assets/img/revitimiento.jpg" alt="img" />
             </span>
-            <h4 class="my-3">Siding</h4>
-            <p class="text-muted">
-              Siding transforms the exterior of your home, providing both
-              protection and aesthetic appeal. Our siding services marry
-              durability with style, enhancing your property's curb appeal and
-              safeguarding it against the elements. Build more than structures;
-              craft experiences. Explore how our services can transform your
-              space into something truly exceptional.
-            </p>
+            <h4
+              class="my-3"
+              data-section="services"
+              data-value="second-item"
+            ></h4>
+            <p
+              class="text-muted"
+              data-section="services"
+              data-value="description-siding"
+            ></p>
           </div>
 
           <div class="col-md-4">
             <span class="fa-stack fa-4x imgposit">
               <img src="assets/img/roofing4.jpg" alt="img" />
             </span>
-            <h4 class="my-3">Painting</h4>
-            <p class="text-muted">
-              We embody your style and care for your home. Our painting services
-              highlight beauty, protect against wear, and transform your space
-              into a personalized reflection of comfort and elegance. We turn
-              your dreams into reality: trust us to illuminate your space with
-              exceptional services and impeccable results.
-            </p>
+            <h4
+              class="my-3"
+              data-section="services"
+              data-value="third-item"
+            ></h4>
+            <p
+              class="text-muted"
+              data-section="services"
+              data-value="description-paiting"
+            ></p>
           </div>
         </div>
       </div>
@@ -159,15 +215,16 @@
           style="display: flex; justify-content: center"
         >
           <div class="col-md-6">
-            <h4 class="my-3">General construction</h4>
-            <p class="text-muted">
-              Your construction needs, our expertise. From concept to
-              completion, we are committed to delivering high-quality, tailored
-              solutions for your general construction projects. Building dreams,
-              one project at a time. Your vision is our mission. Hire us for
-              services that not only meet but exceed your expectations, creating
-              an environment that reflects your style and personality.
-            </p>
+            <h4
+              class="my-3"
+              data-section="services"
+              data-value="quarter-item"
+            ></h4>
+            <p
+              class="text-muted"
+              data-section="services"
+              data-value="description-general"
+            ></p>
           </div>
         </div>
         <div class="carusel mt-4" data-aos="fade-up">
@@ -223,21 +280,26 @@
     <section id="features" class="features page-section">
       <div class="container" data-aos="fade-up">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">
-            With a proven track record, we bring extensive expertise to ensure
-            exceptional results in every project
-          </h3>
+          <h2
+            class="section-heading text-uppercase"
+            data-section="about"
+            data-value="title-about"
+          ></h2>
+          <h3
+            class="section-subheading text-muted"
+            data-section="about"
+            data-value="description-about"
+          ></h3>
         </div>
         <div class="row">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Qualities of Our Company <br />F'C</h3>
+            <h3 data-section="about" data-value="item-important"></h3>
 
             <div class="row gy-4">
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
-                  <span>Ethical and honest business practices.</span>
+                  <span data-section="about" data-value="item1"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -245,7 +307,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
-                  <span>Deliver high-quality products or services.</span>
+                  <span data-section="about" data-value="item2"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -253,7 +315,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-calendar-todo-line" style="color: #e80368"></i>
-                  <span>Proactive pursuit of new ideas and solutions.</span>
+                  <span data-section="about" data-value="item3"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -261,7 +323,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-paint-brush-line" style="color: #e361ff"></i>
-                  <span>Exceptional customer service and attentiveness.</span>
+                  <span data-section="about" data-value="item4"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -269,10 +331,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-database-2-line" style="color: #47aeff"></i>
-                  <span
-                    >Build and maintain trust with customers and
-                    employees.</span
-                  >
+                  <span data-section="about" data-value="item5"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -280,10 +339,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-gradienter-line" style="color: #ffa76e"></i>
-                  <span
-                    >Efficient management of resources for optimized internal
-                    processes.</span
-                  >
+                  <span data-section="about" data-value="item6"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -291,10 +347,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-file-list-3-line" style="color: #11dbcf"></i>
-                  <span>
-                    Foster a collaborative and productive work
-                    environment.</span
-                  >
+                  <span data-section="about" data-value="item7"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -302,7 +355,7 @@
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-base-station-line" style="color: #ff5828"></i>
-                  <span>Ability to adapt to market changes.</span>
+                  <span data-section="about" data-value="item8"></span>
                 </div>
               </div>
               <!-- End Icon List Item-->
@@ -326,26 +379,34 @@
         <div class="container" data-aos="fade-up" data-aos-delay="300">
           <div class="row">
             <div class="col-md-6">
-              <h4>We are pioneers in construction.</h4>
-              <p>
-                Every day, we strive to provide the best construction services
-                possible by working hand-in-hand with skilled professionals and
-                utilizing all necessary tools to create safe workplaces. We aim
-                to be the top choice for clients, setting an exemplary standard
-                for going above and beyond to ensure the job is done right!
-              </p>
-              <p>
-                The company is legally authorized and holds the necessary
-                license to carry out a variety of home improvement works,
-                ranging from construction to renovations and repairs in
-                residential properties. That's why we are your best choice.
-                Contact us through WhatsApp !!
-              </p>
+              <h4 data-section="about" data-value="item-second"></h4>
+              <p data-section="about" data-value="description-pioners1"></p>
+              <p data-section="about" data-value="description-pioners2"></p>
               <img src="assets/img/licencia.jpg" alt="licencia" />
 
-              <a href="#about" class="btn-get-started">
+              <a
+                href="https://wa.me/987654321?text=Quiero%20contactarme%20con%20la%20compania%20FORZE%20ROOFING"
+                target="_blank"
+                class="btn-get-started"
+              >
                 <i class="fa-brands fa-whatsapp"></i> WhatsApp</a
               >
+            </div>
+            <div class="col-md-6">
+              <div class="call-to-action">
+                <div class="container" data-aos="fade-up">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                      <img src="/assets/logoCompania.png" alt="logoc" />
+                      <p data-section="about" data-value="description-doc"></p>
+                      <h6
+                        data-section="about"
+                        data-value="description-doc1"
+                      ></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -357,14 +418,34 @@
     <section class="page-section" id="contact" data-aos="fade-up-left">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">
-            Elevate your projects to new heights with the expertise of FORZE
-            ROFING. Contact us and turn your ideas into reality today.
-          </h3>
+          <h2
+            class="section-heading text-uppercase"
+            data-section="contact"
+            data-value="title-contact"
+          >
+            Contact Us
+          </h2>
+          <h3
+            class="section-subheading text-white"
+            data-section="contact"
+            data-value="description-contact"
+          ></h3>
+          <div class="row staContact">
+            <div class="col-md-6">
+              <h3 class="mb-4">EE.UU</h3>
+              <h6 data-section="contact" data-value="direction"></h6>
+              <p>Av Docter 123D rosvet</p>
+            </div>
+            <div class="col-md-6">
+              <h6 data-section="contact" data-value="phone"></h6>
+              <p>+ 1 3445 3452 2334</p>
+              <h6 data-section="contact" data-value="email"></h6>
+              <p>sara@gmail.com</p>
+            </div>
+          </div>
         </div>
 
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form id="contactForm">
           <div class="row align-items-stretch mb-5">
             <div class="col-md-6">
               <div class="form-group">
@@ -374,40 +455,26 @@
                   id="name"
                   type="text"
                   placeholder="Your Name *"
-                  data-sb-validations="required"
+                  required
                 />
-                <div class="invalid-feedback" data-sb-feedback="name:required">
-                  A name is required.
-                </div>
               </div>
               <div class="form-group">
-                <!-- Email address input-->
                 <input
                   class="form-control"
                   id="email"
                   type="email"
                   placeholder="Your Email *"
-                  data-sb-validations="required,email"
+                  required
                 />
-                <div class="invalid-feedback" data-sb-feedback="email:required">
-                  An email is required.
-                </div>
-                <div class="invalid-feedback" data-sb-feedback="email:email">
-                  Email is not valid.
-                </div>
               </div>
               <div class="form-group mb-md-0">
-                <!-- Phone number input-->
                 <input
                   class="form-control"
                   id="phone"
                   type="tel"
                   placeholder="Your Phone *"
-                  data-sb-validations="required"
+                  required
                 />
-                <div class="invalid-feedback" data-sb-feedback="phone:required">
-                  A phone number is required.
-                </div>
               </div>
             </div>
             <div class="col-md-6">
@@ -417,39 +484,20 @@
                   class="form-control"
                   id="message"
                   placeholder="Your Message *"
-                  data-sb-validations="required"
+                  required
                 ></textarea>
-                <div
-                  class="invalid-feedback"
-                  data-sb-feedback="message:required"
-                >
-                  A message is required.
-                </div>
               </div>
-            </div>
-          </div>
-
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center text-white mb-3">
-              <div class="fw-bolder">Form submission successful!</div>
-              To activate this form, sign up at
-              <br />
-            </div>
-          </div>
-          <div class="d-none" id="submitErrorMessage">
-            <div class="text-center text-danger mb-3">
-              Error sending message!
             </div>
           </div>
           <!-- Submit Button-->
           <div class="text-center">
             <button
-              class="btn btn-primary btn-xl text-uppercase disabled"
+              class="btn btn-primary btn-xl text-uppercase"
               id="submitButton"
               type="submit"
-            >
-              Send Message
-            </button>
+              data-section="contact"
+              data-value="description-btn"
+            ></button>
           </div>
         </form>
       </div>
@@ -459,7 +507,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-start">
-            Copyright &copy; Your Website 2024
+            Copyright &copy; FORZE ROOFING 2024
           </div>
           <div class="col-lg-4 my-3 my-lg-0">
             <a
@@ -501,7 +549,6 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
