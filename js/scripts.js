@@ -161,7 +161,7 @@ formContact.addEventListener("submit", (e) => {
   const message = document.getElementById("message").value;
   const send = `Reciba un cordial saludo de ${name} con nùmero de telèfono ${phone} y email ${email} con mensaje : ${message}`;
   var messageSend = encodeURIComponent(send);
-  var number = encodeURIComponent("+593988497045");
+  var number = encodeURIComponent("19143823712");
   window.location.href = "https://wa.me/" + number + "?text=" + messageSend;
   formContact.reset();
 });

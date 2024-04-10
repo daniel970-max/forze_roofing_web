@@ -6,26 +6,26 @@
     "quarter-navbar": "Contactos"
   },
   "home": {
-    "welcome": "Bienvenido a nuestra compañía de construcción ¡FORZE ROOFING!",
+    "welcome": "Bienvenido a nuestra compañía de construcción ¡G WOULD CON...!",
     "title-page": "Techos transformados, hogares elevados, sueños realizados.",
     "text-btn-home": "Conocer mas"
   },
   "services": {
     "title": "Servicios",
-    "description": "Bienvenid@s a su compania, donde hacemos realidad tus sueños. Especialistas en techado, revestimiento, pintura y construcción en general. ¡Forze Roofing convierte tus sueños en realidad con estilo y durabilidad incomparables! Déjanos elevar tu hogar a nuevas alturas.",
+    "description": "Bienvenid@s a su compania, donde hacemos realidad tus sueños. Especialistas en techado, revestimiento, pintura y construcción en general. ¡G WOULD convierte tus sueños en realidad con estilo y durabilidad incomparables! Déjanos elevar tu hogar a nuevas alturas.",
     "first-item": "Roofing",
     "second-item": "Revistimiento de paredes",
     "third-item": "Pintado de hogares",
     "quarter-item": "Reconstruccion General",
     "description-general": "Tus necesidades de reconstrucción, nuestra experiencia. Desde el concepto hasta la finalización, nos comprometemos a ofrecer soluciones de alta calidad y personalizadas para tus proyectos de construcción en general. Construyendo sueños, un proyecto a la vez. Tu visión es nuestra misión. Contrátanos para servicios que no solo satisfagan, sino que superen tus expectativas, creando un entorno que refleje tu estilo y personalidad.",
-    "description-roofing": "FORZE ROOFING se especializa en servicios de techado, aportando una amplia experiencia en la construcción, reparación y mantenimiento de techos de alta calidad. Nuestro equipo altamente capacitado sobresale en ofrecer soluciones duraderas con materiales de primera calidad y técnicas avanzadas. En FR, estamos comprometidos a superar las expectativas, asegurando que cada detalle de su proyecto de techado sea manejado con precisión y profesionalismo. Confíe en nosotros para soluciones de techado eficientes y excelentes.",
-    "description-siding": "El revestimiento transforma el exterior de su hogar, proporcionando tanto protección como atractivo estético. Nuestros servicios de revestimiento combinan durabilidad con estilo, mejorando el atractivo visual de su propiedad y protegiéndola contra los elementos. Construya más que estructuras; diseñe experiencias. Explore cómo nuestros servicios pueden transformar su espacio en algo verdaderamente excepcional.",
+    "description-roofing": "G WOULD C  se especializa en servicios de techado, aportando una amplia experiencia en la construcción, reparación y mantenimiento de techos de alta calidad. Nuestro equipo altamente capacitado sobresale en ofrecer soluciones duraderas con materiales de primera calidad y técnicas avanzadas.",
+    "description-siding": "El revestimiento transforma el exterior de su hogar, proporcionando tanto protección como atractivo estético. Nuestros servicios de revestimiento combinan durabilidad con estilo, mejorando el atractivo visual de su propiedad y protegiéndola contra los elementos.",
     "description-paiting": "Nuestros servicios de pintura resaltan la belleza, protegen contra el desgaste y transforman tu espacio en una expresión personalizada de confort y elegancia. Hacemos realidad tus sueños: confía en nosotros para iluminar tu espacio con servicios excepcionales y resultados impecables."
   },
   "about": {
     "title-about": "Acerca de",
     "description-about": "Con un historial comprobado de éxito, aportamos una amplia experiencia y dedicación para garantizar resultados excepcionales en cada proyecto. Nuestro compromiso con la excelencia y la atención meticulosa nos distingue, asegurando que cada detalle se maneje con precisión y profesionalismo.",
-    "item-important": "Cualidades de Nuestra Compañía <br /> F'C",
+    "item-important": "Cualidades de Nuestra Compañía",
     "item1": "Prácticas comerciales éticas y honestas.",
     "item2": "Entregar productos o servicios de alta calidad.",
     "item3": "Búsqueda proactiva de nuevas ideas y soluciones.",
@@ -35,14 +35,14 @@
     "item7": "Fomentar un entorno de trabajo colaborativo y productivo.",
     "item8": "Capacidad para adaptarse a los cambios del mercado.",
     "item-second": "Somos pioneros en reconstrucción de hogares",
-    "description-pioners1": "Nuestro objetivo es ser la opción preferida para los clientes, estableciendo un estándar ejemplar para ir más allá y asegurarnos de que el trabajo se realice correctamente.",
+    "description-pioners1": "Todos los días, nos esforzamos por brindar los mejores servicios de construcción posibles trabajando mano a mano con profesionales capacitados y utilizando todas las herramientas necesarias para crear lugares de trabajo seguros. Nuestro objetivo es ser la mejor opción para los clientes, estableciendo un estándar ejemplar para ir más allá y garantizar que el trabajo se haga bien.",
     "description-pioners2": "La empresa está legalmente autorizada y cuenta con la licencia necesaria para llevar a cabo una variedad de trabajos de mejoras para el hogar, que van desde la construcción hasta renovaciones y reparaciones en propiedades residenciales. Por eso somos tu mejor opción. ¡Contáctanos a través de WhatsApp!",
     "description-doc": "Somos una compania completamente legal y debidamente autorizada para operar y ofrecer nuestros servicios.",
-    "description-doc1": "Si desea comprobarlo descarge el documento dando clic aqui <a href='assets/documents/GWOULD_CONSTRUCTION_LLC.pdf' download><img class='btnDownload' src='assets/img/download.svg' alt='download'/></a>"
+    "description-doc1": "Si desea comprobarlo descarge el documento dando clic aqui <a href='assets/documents/GWOULD_CONSTRUCTION_LLC.pdf' download><i class='fa-solid fa-download'></i></a>"
   },
   "contact": {
     "title-contact": "Contactos",
-    "description-contact": "Eleve sus proyectos a nuevas alturas con la experiencia de FORZE ROOFING. Contáctenos y convierta sus ideas en realidad hoy mismo.",
+    "description-contact": "Eleve sus proyectos a nuevas alturas con la experiencia de G WOULD CONSTRUCTION LLC. Contáctenos y convierta sus ideas en realidad hoy mismo.",
     "description-btn": "Enviar mensaje <i class='fa-brands fa-whatsapp'></i>",
     "direction": "Dirección :",
     "phone": "Teléfono :",

@@ -6,7 +6,7 @@
     "quarter-navbar": "Contact"
   },
   "home": {
-    "welcome": "Welcome To Our Construction Company FORZE ROOFING!",
+    "welcome": "Welcome To Our Construction Company G WOULD CON...!",
     "title-page": "Transformed roofs, elevated homes, dreams realized",
     "text-btn-home": "Tell me more"
   },
@@ -18,14 +18,14 @@
     "third-item": "Painting",
     "quarter-item": "General Reconstruction",
     "description-general": "Your reconstruction needs, our expertise. From concept to completion, we are committed to offering high-quality and personalized solutions for your construction projects in general. Building dreams, one project at a time. Your vision is our mission. Hire us for services that not only meet but exceed your expectations, creating an environment that reflects your style and personality.",
-    "description-roofing": "FORZE ROOFING specializes in roofing services, bringing extensive experience in construction, repair, and maintenance of high-quality roofs. Our highly trained team excels in delivering durable solutions with top-notch materials and advanced techniques. At FR, we are committed to exceeding expectations, ensuring every detail of your roofing project is handled with precision and professionalism. Trust us for efficient and excellent roofing solutions.",
-    "description-siding": "Siding transforms the exterior of your home, providing both protection and aesthetic appeal. Our siding services marry durability with style, enhancing your property's curb appeal and safeguarding it against the elements. Build more than structures; craft experiences. Explore how our services can transform your space into something truly exceptional.",
+    "description-roofing": "G WOULD C specializes in roofing services, bringing extensive experience in construction, repair, and maintenance of high-quality roofs. Our highly trained team excels in delivering durable solutions with top-notch materials and advanced techniques.",
+    "description-siding": "Siding transforms the exterior of your home, providing both protection and aesthetic appeal. Our siding services marry durability with style, enhancing your property's curb appeal and safeguarding it against the elements.",
     "description-paiting": "Our painting services highlight beauty, protect against wear, and transform your space into a personalized expression of comfort and elegance. We make your dreams come true: trust us to illuminate your space with exceptional services and impeccable results."
   },
   "about": {
     "title-about": "About",
     "description-about": "With a proven track record of success, we bring extensive experience and dedication to ensure exceptional results in every project. Our commitment to excellence and meticulous attention sets us apart, ensuring that every detail is handled with precision and professionalism.",
-    "item-important": "Qualities of Our Company <br />F'C",
+    "item-important": "Qualities of Our Company",
     "item1": "Ethical and honest business practices.",
     "item2": "Deliver high-quality products or services.",
     "item3": "Proactive pursuit of new ideas and solutions.",
@@ -35,14 +35,14 @@
     "item7": "Build and maintain trust with customers and employees.",
     "item8": "Efficient management of resources for  optimized internal processes.",
     "item-second": "We are pioneers in construction of houses",
-    "description-pioners1": "We aim to be the top choice for clients, setting an exemplary standard for going above and beyond to ensure the job is done right!",
+    "description-pioners1": "Every day, we strive to provide the best construction services possible by working hand-in-hand with skilled professionals and utilizing all necessary tools to create safe workplaces. We aim to be the top choice for clients, setting an exemplary standard for going above and beyond to ensure the job is done right!",
     "description-pioners2": "The company is legally authorized and holds the necessary license to carry out a variety of home improvement works, ranging from construction to renovations and repairs in residential properties. That's why we are your best choice. Contact us through WhatsApp!",
     "description-doc": "We are a fully legal and duly authorized company to operate and offer our services.",
-    "description-doc1": "If you wish to verify it, download the document by clicking here <a href='assets/documents/GWOULD_CONSTRUCTION_LLC.pdf' download><img class='btnDownload' src='assets/img/download.svg' alt='download'/></a>"
+    "description-doc1": "If you wish to verify it, download the document by clicking here <a href='assets/documents/GWOULD_CONSTRUCTION_LLC.pdf' download><i class='fa-solid fa-download'></i></a>"
   },
   "contact": {
     "title-contact": "Contact Us",
-    "description-contact": "Elevate your projects to new heights with the expertise of FORZE ROFING. Contact us and turn your ideas into reality today.",
+    "description-contact": "Elevate your projects to new heights with the expertise of G WOULD CONSTRUCTION LLC. Contact us and turn your ideas into reality today.",
     "description-btn": "Send Message <i class='fa-brands fa-whatsapp'></i>",
     "direction":"Direction :",
     "phone":"Phone :",

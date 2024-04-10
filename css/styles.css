@@ -2434,8 +2434,6 @@ textarea.form-control-lg {
   border-bottom-left-radius: 0;
 }
 
-
-
 .btn {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
@@ -2873,8 +2871,6 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
-
-
 
 .btn-group,
 .btn-group-vertical {
@@ -3581,14 +3577,6 @@ fieldset:disabled .btn {
 .card > .list-group + .card-footer {
   border-top: 0;
 }
-.imgposit {
-  position: relative;
-}
-.imgposit img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
 
 /*--------------------------------------------------------------
 # Features Section
@@ -3603,10 +3591,14 @@ fieldset:disabled .btn {
   font-weight: 700;
   margin-bottom: 30px;
 }
+.features .icon-list {
+  display: flex;
+  align-items: center;
+}
 
-.features .icon-list i {
-  margin-right: 10px;
-  font-size: 24px;
+.features .icon-list .fa-gear {
+  padding: 1rem;
+  font-size: 26px;
   line-height: 1.2;
 }
 
@@ -4056,8 +4048,6 @@ fieldset:disabled .btn {
   position: relative;
   top: -1px;
 }
-
-
 
 @keyframes progress-bar-stripes {
   0% {
@@ -9345,12 +9335,34 @@ header.masthead {
   text-align: center;
   height: 100vh;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), #2020208a),
-    url("../assets/photo1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background: #29486a;
+}
+header.masthead .header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.header-video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.header-overly {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 21, 92, 1) 35%,
+    rgba(18, 55, 62, 1) 100%
+  );
+  opacity: 0.5;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -9639,18 +9651,32 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
 }
 
-.call-to-action .container .btnDownload {
-  width: 9%;
-  margin-left: 4px;
-  padding-left: 2px;
-  padding-right: 2px;
+.cardS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.cardS .videoServices {
+  width: 190px !important;
+  height: 300px !important;
+}
+.cardS .videoServices video {
+  height: 100%;
+  border-bottom-right-radius: 20%;
+}
+
+.call-to-action .container .fa-download {
+  margin-left: 3px;
+  width: 5rem;
+  color: #fff;
   cursor: pointer;
   transition: 0.6s all;
 }
-.call-to-action .container .btnDownload:hover {
-  padding-top: 0.88rem;
+.call-to-action .container .fa-download:hover {
+  color: #acffbe;
+  padding-top: 0.4rem;
   transition: 0.6s all;
-  background-color: #adb5bd;
 }
 .call-to-action .container h6 {
   font-weight: 500;
@@ -9658,4 +9684,45 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .staContact {
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 0.7rem;
+  }
+  .idioma {
+    margin-left: 1px;
+    padding: 3px;
+  }
+  .idioma img {
+    width: 12px;
+    height: 12px;
+  }
+  .idioma i {
+    font-size: 10px;
+  }
+  .masthead-subheading {
+    font-size: 1rem !important;
+  }
+  .masthead-heading {
+    font-size: 1.3rem !important;
+  }
+  .header-video video {
+    width: 100%;
+    height: 50%;
+  }
+  .boton {
+    width: 30px;
+  }
+  .itemPioner {
+    font-size: 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 989px) {
+  .idiomas {
+    width: 30px;
+  }
+  .idiomas li a span {
+    display: none;
+  }
 }
